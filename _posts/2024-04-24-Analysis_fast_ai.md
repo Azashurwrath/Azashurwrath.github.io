@@ -6,9 +6,9 @@ The loss function being utilised in the default loss function that is set when c
 ## Creating a T-SNE plot
 A T-SNE plot was constructed utilised the get_preds() function once the AI of the learn object had processed the training image data set. This function returned an array probabilities of an image in the target set as well as another array that contained what the image should actually be classed as.
 
-![Image of T-SNE](~/images/SNE.png)
+![Image of T-SNE](master/images/SNE.png)
 
 ## Creating an observation matrix
 An observation matrix was created using the inbuilt classification Interpretation function in fast ai.
 
-![Image of Observation Matrix](~/images/observation.png)
+![Image of Observation Matrix](master/images/observation.png)
